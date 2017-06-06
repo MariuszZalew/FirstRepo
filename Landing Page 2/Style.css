@@ -1,0 +1,93 @@
+html, body {
+	height: 100%;
+}
+.box {
+	height: 100%;
+	/* width: 100%; */
+	background-image: url('img/man-2037255_1920.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+} 
+/* .box2 {
+	height: 100%;
+	background-image: url('mobile-phone-1875813_1920.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+} */
+.inbox {
+	padding: 40px;
+	/* height: 100%;
+	justify-content: center;    */
+    align-items: center;
+
+    flex-direction: column;
+    display: flex;
+
+	font-size: 65px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 0 white;
+}
+.inbox1{
+	height: 100%;
+	justify-content: center;   
+    align-items: center;
+
+    flex-direction: column;
+    display: flex;
+
+	font-size: 65px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 0 white;
+
+}
+.inbox2 {
+	color: #ffffff;
+	height: 100%;
+	justify-content: center;   
+	align-items: center;
+
+    flex-direction: column;
+    display: flex;
+
+	font-size: 50px;
+    font-family: 'Lobster', cursive;
+	text-shadow: 
+		2px 2px 0 black,
+		-2px -2px 0 black;
+
+} 
+.inbox2 h2 {
+	-webkit-animation-duration: 4s;
+  	-WebKit-animation-delay: 0s;
+  	-webkit-animation-iteration-count: infinite;
+}
+.content {
+	color: gray;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+	/* font-family: 'Pacifico', cursive; */
+}.content h1 {
+	text-align: center;
+	margin: 50px;
+	font-family: 'Lobster',cursive;
+} .content h2 {
+	font-family: 'Pacifico';
+	text-align: center;
+	font-weight: 500;
+	margin: 30px;
+} .content p {
+	margin-bottom: 40px;
+}
+.column {
+	width: 100%;
+	align-items: center;
+} span {
+	font-size: 20px;
+	font-family: 'Pacifico',cursive;
+}
+#time {
+	font-size: 20px;
+	font-family: 'Lobster',cursive;
+}
